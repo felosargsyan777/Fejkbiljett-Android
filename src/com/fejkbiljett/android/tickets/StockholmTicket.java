@@ -36,10 +36,10 @@ public class StockholmTicket extends Ticket {
 				+ "E" + sAEOX.substring(18, 24) + Utils.getRandChars("AEOX", 3) + "\n"
 				+ "EEEEEEEEEE\n\n"
 				
-				+ "SL biljett giltig till " + mTime + " " + mDate + "\n"
+				+ "SL biljett giltig till " + mTime + ", " + mDate + "\n"
 				+ sPriceText + " " + iPrice + " kr ink 6% moms\n"
 				
-				+ sCode + "\n"
+				+ 564620 20059134 + "\n"
 				+ "m.sl.se";
 	}
 
